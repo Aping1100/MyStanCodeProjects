@@ -75,16 +75,6 @@ def get_best_pixel(pixels):
     best = [b_p.red, b_p.green, b_p.blue]
     # 用list直接找最小的
 
-    '''
-    smallest = float('inf')
-    best = []
-    for n in pixels:
-        color_d = get_pixel_dist(n, p_avg[0], p_avg[1], p_avg[2])
-        if color_d < smallest:
-            smallest = color_d
-    best = [n.red, n.green, n.blue]
-    '''
-
     return best  # list
 
 
@@ -103,7 +93,7 @@ def solve(images):
     height = images[0].height
     result = SimpleImage.blank(width, height)
     
-    # ----- YOUR CODE STARTS HERE ----- #
+  
     # Write code to populate image and create the 'ghost' effect
 
     for x in range(width):
@@ -119,8 +109,6 @@ def solve(images):
             result_p.red = closed_p[0]
             result_p.green = closed_p[1]
             result_p.blue = closed_p[2]
-
-    # ----- YOUR CODE ENDS HERE ----- #
 
     print("Displaying image!")
     result.show()
@@ -166,7 +154,6 @@ def load_images(dir):
 
 
 def main():
-    # (provided, DO NOT MODIFY)
     args = sys.argv[1:]
     # We just take 1 argument, the folder containing all the images.
     # The load_images() capability is provided above.
