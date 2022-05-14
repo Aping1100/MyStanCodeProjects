@@ -9,6 +9,6 @@ Watch my *[DEMO VIDEOS](https://drive.google.com/drive/folders/1qzuPPtpIXFWCnDp-
 * [Boggle Game](https://github.com/Aping1100/StanCodeProjects/tree/main/boggle)\
    * recursive function\
 * [Name Popularity Searching](https://github.com/Aping1100/StanCodeProjects/tree/main/babyname_search)\
-   * data structure\　
-＊　[Pedestrian Removing Application](https://github.com/Aping1100/StanCodeProjects/tree/main/stanCodoshop)\
-   ＊　image processing
+   * data structure\
+* [Pedestrian Removing Application](https://github.com/Aping1100/StanCodeProjects/tree/main/stanCodoshop)\
+   ＊ image processing
