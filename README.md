@@ -11,4 +11,4 @@ Watch my *[DEMO VIDEOS](https://drive.google.com/drive/folders/1qzuPPtpIXFWCnDp-
 * [Name Popularity Searching](https://github.com/Aping1100/StanCodeProjects/tree/main/babyname_search)
    * data structure
 * [Pedestrian Removing Application](https://github.com/Aping1100/StanCodeProjects/tree/main/stanCodoshop)
-   ＊ image processing
+   * image processing
