@@ -57,8 +57,6 @@ def draw_fixed_lines(canvas):
     """
     canvas.delete('all')            # delete all existing lines from the canvas
 
-    # ----- Write your code below this line ----- #
-
     canvas.create_line(GRAPH_MARGIN_SIZE, GRAPH_MARGIN_SIZE, CANVAS_WIDTH-GRAPH_MARGIN_SIZE,GRAPH_MARGIN_SIZE)
     canvas.create_line(GRAPH_MARGIN_SIZE, CANVAS_HEIGHT-GRAPH_MARGIN_SIZE, CANVAS_WIDTH-GRAPH_MARGIN_SIZE,CANVAS_HEIGHT-GRAPH_MARGIN_SIZE)
     for i in range(len(YEARS)):
@@ -81,7 +79,6 @@ def draw_names(canvas, name_data, lookup_names):
         This function does not return any value.
     """
     draw_fixed_lines(canvas)        # draw the fixed background grid
-    # ----- Write your code below this line ----- #
     for j in range(len(lookup_names)):
         name = lookup_names[j]
         if name in name_data:
@@ -100,8 +97,6 @@ def draw_names(canvas, name_data, lookup_names):
                 x0 = x
                 y0 = y
 
-
-# main() code is provided, feel free to read through it but DO NOT MODIFY
 def main():
     # Load data
     name_data = babynames.read_files(FILENAMES)
