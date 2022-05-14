@@ -1,6 +1,6 @@
 """
 File: blur.py
-Name:
+Name: Yipin
 -------------------------------
 This file shows the original image first,
 smiley-face.png, and then compare to its
@@ -58,8 +58,6 @@ def main():
         blurred_img = blur(blurred_img)
     blurred_img.show()
 
-
-# ---- DO NOT EDIT CODE BELOW THIS LINE ---- #
 
 if __name__ == '__main__':
     main()
